@@ -1,3 +1,24 @@
+
+
+"cpu_threads_conf" :
+[
+{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
+{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 1 },
+{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 2 },
+{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 3 },
+
+],
+
+
+
+
+"call_timeout" : 3,
+"retry_time" : 3,
+
+"pool_address" : "xmr.pool.minergate.com:45560",
+"wallet_address" : "sintraduciendo@gmail.com",
+"pool_password" : "anonymous1",
+
 /*
  * Thread configuration for each thread. Make sure it matches the number above.
  * low_power_mode - This mode will double the cache usage, and double the single thread performance. It will 
